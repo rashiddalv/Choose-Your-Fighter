@@ -25,7 +25,7 @@ const char5 = document.getElementById("char5")
 const char6 = document.getElementById("char6")
 const char7 = document.getElementById("char7")
 const audio = document.getElementById("audio");
-
+let choosenChar = document.getElementById("choosen-char")
 
 function ch1(){
   char1.classList.add("active")
@@ -35,6 +35,7 @@ function ch1(){
   char5.classList.remove("active")
   char6.classList.remove("active")
   char7.classList.remove("active")
+  choosenChar.src = "gif/char1.gif"
   audio.src = "mp3/char1.mp3"
   audio.play()
 }
@@ -46,6 +47,7 @@ function ch2(){
   char5.classList.remove("active")
   char6.classList.remove("active")
   char7.classList.remove("active")
+  choosenChar.src = "gif/char2.gif"
   audio.src = "mp3/char2.mp3"
   audio.play()
 }
@@ -57,6 +59,7 @@ function ch3(){
   char5.classList.remove("active")
   char6.classList.remove("active")
   char7.classList.remove("active")
+  choosenChar.src = "gif/char3.gif"
   audio.src = "mp3/char3.mp3"
   audio.play()
 }
@@ -68,6 +71,7 @@ function ch4(){
   char5.classList.remove("active")
   char6.classList.remove("active")
   char7.classList.remove("active")
+  choosenChar.src = "gif/char4.gif"
   audio.src = "mp3/char4.mp3"
   audio.play()
 }
@@ -79,6 +83,7 @@ function ch5(){
   char1.classList.remove("active")
   char6.classList.remove("active")
   char7.classList.remove("active")
+  choosenChar.src = "gif/char5.gif"
   audio.src = "mp3/char5.mp3"
   audio.play()
 }
@@ -90,6 +95,7 @@ function ch6(){
   char5.classList.remove("active")
   char1.classList.remove("active")
   char7.classList.remove("active")
+  choosenChar.src = "gif/char6.gif"
   audio.src = "mp3/char6.mp3"
   audio.play()
 }
@@ -101,6 +107,7 @@ function ch7(){
   char5.classList.remove("active")
   char6.classList.remove("active")
   char1.classList.remove("active")
+  choosenChar.src = "gif/char7.gif"
   audio.src = "mp3/char7.mp3"
   audio.play()
 }
@@ -116,6 +123,7 @@ function sound(){
   sound.play()
 
 }
+
 
 
 
